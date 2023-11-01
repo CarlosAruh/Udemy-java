@@ -17,17 +17,18 @@ public class Program2 {
 		String name = sc.nextLine();
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
-		System.out.print("Quantity in Stock: ");
-		int quantity = sc.nextInt();
+		/*System.out.print("Quantity in Stock: ");
+		int quantity = sc.nextInt();*/
 		
-		Products product = new Products(name, price, quantity);
+		Products product = new Products(name, price);
+		
 		
 		System.out.println();
 		System.out.println("Product data: " + product);
 		
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");
-		quantity = sc.nextInt();
+		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
 		System.out.println();
