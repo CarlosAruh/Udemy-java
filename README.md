@@ -55,3 +55,17 @@ o vetor C gerado.
 mostrar na tela a média aritmética de todos elementos com três casas decimais. Depois mostrar todos
 os elementos do vetor que estejam abaixo da média, com uma casa decimal cada.
 
+**Program14**
+*Fazer um programa para ler um vetor de N números inteiros. Em seguida, mostrar na tela a média
+aritmética somente dos números pares lidos, com uma casa decimal. Se nenhum número par for
+digitado, mostrar a mensagem "NENHUM NUMERO PAR"
+
+**Program15**
+*Fazer um programa para ler um vetor de N números inteiros. Em seguida, mostrar na tela a média
+aritmética somente dos números pares lidos, com uma casa decimal. Se nenhum número par for
+digitado, mostrar a mensagem "NENHUM NUMERO PAR"
+
+**Program16 - Pessoa**
+*Fazer um programa para ler um conjunto de nomes de pessoas e suas respectivas idades. Os nomes
+devem ser armazenados em um vetor, e as idades em um outro vetor. Depois, mostrar na tela o nome
+da pessoa mais velha.
