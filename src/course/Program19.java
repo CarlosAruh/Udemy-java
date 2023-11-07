@@ -14,6 +14,7 @@ public class Program19 {
 		System.out.print("How many rooms for rented? ");
 		int num = sc.nextInt();
 		sc.nextLine();
+		System.out.println("");
 
 		Regis[] rooms = new Regis[10];
 

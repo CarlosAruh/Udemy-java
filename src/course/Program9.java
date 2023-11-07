@@ -20,6 +20,8 @@ public class Program9 {
 			vect[i] = sc.nextDouble();
 		}
 		System.out.print("VALORES = ");
+		
+		//for(Double i : vect) {
 		for (int i = 0; i < vect.length; i++) {
 			System.out.print(vect[i] + " ");
 		}
