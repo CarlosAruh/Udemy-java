@@ -31,7 +31,7 @@ public class Employee {
 		return salary;
 	}
 	
-	public void sal(double per) {
+	public void increaseSalary(double per) {
 		this.salary += salary * per / 100;
 	}
 	
