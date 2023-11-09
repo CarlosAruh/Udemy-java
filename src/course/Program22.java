@@ -29,10 +29,10 @@ public class Program22 {
 			for (int j = 0; j < l; j++) {
 				if(mat [i][j] == loc) {
 					System.out.println("Position: "+i+","+j);
-					System.out.println(j - 1 >= 0 ? "Left: "+mat[i][j-1] : "");
-					System.out.println(j + 1 < l ? "Rigth: "+mat[i][j+1] : "");
-					System.out.println(i - 1 >= 0 ? "Up: "+mat[i-1][j] : "");
-					System.out.println(i + 1 < c ? "Down: "+mat[i+1][j] : "");
+					System.out.println(j - 1 >= 0 ? "Left: "+mat[i][j-1] : "Não tem");
+					System.out.println(j + 1 < l ? "Rigth: "+mat[i][j+1] : "Não tem");
+					System.out.println(i - 1 >= 0 ? "Up: "+mat[i-1][j] : "Não tem");
+					System.out.println(i + 1 < c ? "Down: "+mat[i+1][j] : "Não tem");
 				}
 			}
 			System.out.println();
