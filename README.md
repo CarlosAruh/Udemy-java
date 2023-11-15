@@ -110,6 +110,7 @@ Java < 8
 Java < 8 - Calendar
 
 **Program26-Worker-HourContract-Department-(*WorkerLevel*)**
-*Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depois, solicitar do usuário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo <img src="img/Ex_25.png">
+*Ler os dados de um trabalhador com N contratos (N fornecido pelo usuário). Depois, solicitar do usuário um mês e mostrar qual foi o salário do funcionário nesse mês, conforme exemplo <img src="img/Ex_26.png">
 
 **Program27-Post-Comment**
+*Instance manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal, conforme exemplo<img src="img/Ex_27.png">
