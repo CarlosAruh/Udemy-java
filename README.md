@@ -114,3 +114,6 @@ Java < 8 - Calendar
 
 **Program27-Post-Comment**
 *Instance manualmente (hard code) os objetos mostrados abaixo e mostre-os na tela do terminal, conforme exemplo<img src="img/Ex_27.png">
+
+**Program28-Order-Client-OrderItem-Product-(*OrderStatus*)**
+*Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostrar um sumário do pedido conforme exemplo. Nota: o instante do pedido deve ser o instante do sistema: new Date()<img src="img/Ex_28.png">
