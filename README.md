@@ -125,7 +125,7 @@ Java < 8 - Calendar
 *Fazer um programa para ler os dados de N produtos (N fornecido pelo usuário). Ao final, mostrar a etiqueta de preço de cada produto na mesma ordem em que foram digitados. Todo produto possui nome e preço. Produtos importados possuem uma taxa de alfândega, e produtos usados possuem data de fabricação. Estes dados específicos devem ser acrescentados na etiqueta de preço conforme exemplo (próxima página). Para produtos importados, a taxa e alfândega deve ser acrescentada ao preço final do produto.<br>
 <img src="img/Ex_30.png">
 
-**Program31 TaxPayer - Individual - Company**
+**Program31 - TaxPayer - Individual - Company**
 *Fazer um programa para ler os dados de N contribuintes (N fornecido pelo usuário), os quais podem ser pessoa física ou pessoa jurídica, e depois mostrar o valor do imposto pago por cada um, bem como o total de imposto arrecadado.
 Os dados de pessoa física são: nome, renda anual e gastos com saúde. Os dados de pessoa jurídica são nome, renda anual e número de funcionários. As regras para cálculo de imposto são as seguintes:
 Pessoa física: pessoas cuja renda foi abaixo de 20000.00 pagam 15% de imposto. Pessoas com
@@ -137,3 +137,13 @@ Pessoa jurídica: pessoas jurídicas pagam 16% de imposto. Porém, se a empresa 
 funcionários, ela paga 14% de imposto.
 Exemplo: uma empresa cuja renda foi 400000.00 e possui 25 funcionários, o imposto fica:
 400000 * 14% = 56000.00<br><img src="img/Ex_31.png">
+
+**Program32 - Reservation**
+* Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, data
+de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em
+dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
+novamente a reserva com os dados atualizados. O programa não deve aceitar dados
+inválidos para a reserva, conforme as seguintes regras:
+- Alterações de reserva só podem ocorrer para datas futuras
+- A data de saída deve ser maior que a data de entrada
+<br><img src="img/Ex_32.png">
