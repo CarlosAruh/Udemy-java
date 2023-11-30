@@ -138,7 +138,7 @@ funcionários, ela paga 14% de imposto.
 Exemplo: uma empresa cuja renda foi 400000.00 e possui 25 funcionários, o imposto fica:
 400000 * 14% = 56000.00<br><img src="img/Ex_31.png">
 
-**Program32 - Reservation**
+**Program32 - Reservation - DomainException**
 * Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, data
 de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em
 dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
