@@ -154,3 +154,26 @@ saque nesta conta bancária, mostrando o novo saldo. Um saque não pode ocorrer
 ou se não houver saldo na conta, ou se o valor do saque for superior ao limite de
 saque da conta. Implemente a conta bancária conforme projeto abaixo:
 <br><img src="img/Ex_33.png">
+
+**Program34**
+*Reader - Bloco try-with-resources
+É um bloco try que declara um ou mais recursos, e garante que esses
+recursos serão fechados ao final do bloco
+ 
+ **Program35**
+ *Writer - FileWriter (stream de escrita de caracteres em de arquivos)
+ • Cria/recria o arquivo: new FileWriter(path)
+• Acrescenta ao arquivo existente: new FileWriter(path, true)
+BufferedWriter (mais rápido)
+
+**Program36**
+*Manipulação de pastas
+
+**Program37**
+*Informações de arquivos
+
+**Program38-ProductReader**
+Fazer um programa para ler o caminho de um arquivo .csv contendo os dados de itens vendidos. Cada item possui um
+nome, preço unitário e quantidade, separados por vírgula. Você deve gerar um novo arquivo chamado "summary.csv", localizado
+em uma subpasta chamada "out" a partir da pasta original do arquivo de origem, contendo apenas o nome e o valor total para
+aquele item (preço unitário multiplicado pela quantidade),conforme exemplo.
