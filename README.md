@@ -187,3 +187,37 @@ locação), bem como o valor por hora e o valor diário de locação. O programa
 *Uma empresa deseja automatizar o processamento de seus contratos. O processamento de um contrato consiste em gerar as parcelas a serem pagas para aquele contrato, com base no número de meses desejado. A empresa utiliza um serviço de pagamento online para realizar o pagamento das parcelas. Os serviços de pagamento online tipicamente cobram um juro mensal, bem como uma taxa por pagamento. Por enquanto, o serviço contratado pela empresa é o do Paypal, que aplica
 juros simples de 1% a cada parcela, mais uma taxa de pagamento de 2%. Fazer um programa para ler os dados de um contrato (número do contrato, data do contrato, e valor total do contrato). Em seguida, o programa deve ler o número de meses para
 parcelamento do contrato, e daí gerar os registros de parcelas a serem pagas (data e valor), sendo a primeira parcela a ser paga um mês após a data do contrato, a segunda parcela dois meses após o contrato e assim por diante. Mostrar os dados das parcelas na tela. Veja exemplo na próxima página.
+
+**Program41** (Comparable)
+*Faça um programa para ler um arquivo contendo nomes de pessoas (um nome por
+linha), armazenando-os em uma lista. Depois, ordenar os dados dessa lista e mostra-los
+ordenadamente na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
+Maria Brown
+Alex Green
+Bob Grey
+Anna White
+Alex Black
+Eduardo Rose
+Willian Red
+Marta Blue
+Alex Brown
+
+**Prgram42 - Funcionario**
+*Faça um programa para ler um arquivo contendo funcionários (nome e salário) no
+formato .csv, armazenando-os em uma lista. Depois, ordenar a lista por nome e mostrar
+o resultado na tela. Nota: o caminho do arquivo pode ser informado "hardcode".
+Maria Brown,4300.00
+Alex Green,3100.00
+Bob Grey,3100.00
+Anna White,3500.00
+Alex Black,2450.00
+Eduardo Rose,4390.00
+Willian Red,2900.00
+Marta Blue,6100.00
+Alex Brown,5000.00
+
+**Program43- BrazilianInterestService-UsaInterestService Inter:InterestService**(Default methods (defender methods))
+*Fazer um programa para ler uma quantia e a duração em meses de um
+empréstimo. Informar o valor a ser pago depois de decorrido o prazo do
+empréstimo, conforme regras de juros do Brasil. A regra de cálculo de
+juros do Brasil é juro composto padrão de 2% ao mês.
