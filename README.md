@@ -93,7 +93,7 @@ de homens.
 **Program22**
 *Fazer um programa para ler dois números inteiros M e N, e depois ler uma matriz de M linhas por N colunas contendo números inteiros, podendo haver repetições. Em seguida, ler um numero inteiro X que pertence à matriz. Para cada ocorrência de X, mostra os valores à esquerda, acima, à direita e abaixo de X, quando houver, conforme exemplo.
 
-**Program23**
+**Program23**(Date)
 • Instanciação
 • (agora) ➞ Data-hora
 • Texto ISO 8601 ➞ Data-hora
@@ -247,4 +247,25 @@ Tablet,550.00
 
 **Program48 - ClientHash** (HashCode equals)
 
-**Program49** (Set)
+**Program49-ProductSet** (Set)
+
+**Program50**
+
+**Program51-Users**
+*Um site de internet registra um log de acessos dos usuários. Um
+registro de log consiste no nome de usuário (apenas uma palavra) e o
+instante em que o usuário acessou o site no padrão ISO 8601,
+separados por espaço, conforme exemplo. Fazer um programa que leia
+o log de acessos a partir de um arquivo, e daí informe quantos usuários
+distintos acessaram o site.
+
+**Program52**
+*Em um portal de cursos online, cada usuário possui um código único, representado por
+um número inteiro.
+Cada instrutor do portal pode ter vários cursos, sendo que um mesmo aluno pode se
+matricular em quantos cursos quiser. Assim, o número total de alunos de um instrutor não
+é simplesmente a soma dos alunos de todos os cursos que ele possui, pois pode haver
+alunos repetidos em mais de um curso.
+O instrutor Alex possui três cursos A, B e C, e deseja saber seu número total de alunos.
+Seu programa deve ler os alunos dos cursos A, B e C do instrutor Alex, depois mostrar a
+quantidade total e alunos dele, conforme exemplo.
