@@ -221,3 +221,30 @@ Alex Brown,5000.00
 empréstimo. Informar o valor a ser pago depois de decorrido o prazo do
 empréstimo, conforme regras de juros do Brasil. A regra de cálculo de
 juros do Brasil é juro composto padrão de 2% ao mês.
+
+**Program44**(Coringa Delimitado)
+
+**Program44-PrintService**(Generics)
+*Deseja-se fazer um programa que leia uma quantidade N, e depois N números
+inteiros. Ao final, imprima esses números de forma organizada conforme
+exemplo. Em seguida, informar qual foi o primeiro valor informado.
+
+**Program45- entities: Prod - Service:CalculationService** (Generics delimitados)
+*Uma empresa de consultoria deseja avaliar a performance de produtos,
+funcionários, dentre outras coisas. Um dos cálculos que ela precisa é encontrar
+o maior dentre um conjunto de elementos. Fazer um programa que leia um
+conjunto de produtos a partir de um arquivo, conforme exemplo, e depois
+mostre o mais caro deles.
+Computer,890.50
+IPhone X,910.00
+Tablet,550.00
+
+**Program45**(Generics Delimitado)
+
+**Program46**(Curinga-wildcard types)
+
+**Program47** (Curingas delimitados-bounded wildcards)
+
+**Program48 - ClientHash** (HashCode equals)
+
+**Program49** (Set)
