@@ -30,6 +30,7 @@ public class Product {
 		this.price = price;
 	}
 	
+	//Predicate
 	public static boolean staticProductPradicate(Product p) {
 		return p.getPrice() >= 100.00;
 	}
@@ -38,9 +39,18 @@ public class Product {
 		return price >= 100.00;
 	}
 	
+	//Consumer
+	public static void staticPriceUpdate(Product p) {
+		p.setPrice(p.getPrice() * 1.1);	
+	}
+
+	public void nonStaticPriceUpdate() {
+		setPrice(getPrice() * 1.1);
+	}
+	
 	@Override
 	public String toString() {
-		return name + ", " + price ;
+		return name + ", " + String.format("%.2f", price) ;
 	}
 	
 	
