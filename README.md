@@ -284,7 +284,7 @@ candidato.
 
 **Program56- productComp-MyComparator**(Comparator/Lambda)
 
- (OROGRAMAÇÃO FUNCIONAL)
+                                  (PROGRAMAÇÃO FUNCIONAL)
  
  **Program57**(Transparencia referencial)
  
@@ -321,3 +321,5 @@ funcionários cujo salário seja superior a um dado valor
 fornecido pelo usuário.
 Mostrar também a soma dos salários dos funcionários cujo
 nome começa com a letra 'M'.
+
+                           (Banco de Dados)
