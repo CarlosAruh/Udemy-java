@@ -18,35 +18,32 @@ public class Program55 {
 		String path = sc.nextLine();
 
 		Map<String, Integer> votes = new LinkedHashMap<>();
-		
+
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String line = br.readLine();
-			
+
 			while (line != null) {
 				String[] fields = line.split(",");
 				String name = fields[0];
-				Integer vote = Integer.parseInt(fields[1]);		
-				
-				if(votes.containsKey(name)) {
+				Integer vote = Integer.parseInt(fields[1]);
+
+				if (votes.containsKey(name)) {
 					int update = votes.get(name);
 					votes.put(name, update + vote);
-				}else {
+				} else {
 					votes.put(name, vote);
 				}
-				
+
 				line = br.readLine();
-				
-				
+
 			}
+
 			for (String name : votes.keySet()) {
-				System.out.println(name + ": " +votes.get(name));
+				System.out.println(name + ": " + votes.get(name));
 			}
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
-		
-		
-		
 
 		sc.close();
 	}

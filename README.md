@@ -281,3 +281,19 @@ de votação contendo o nome do candidato e a quantidade de votos
 fazer um programa para ler os registros de votação a partir de um
 arquivo, e daí gerar um relatório consolidado com os totais de cada
 candidato.
+
+**Program56- productComp-MyComparator**(Comparator/Lambda)
+
+ (OROGRAMAÇÃO FUNCIONAL)
+ 
+ **Program57**(Transparencia referencial)
+ 
+ **Program58** (Funções de primeira ordem)
+ 
+ **Program59** (Expressividade)
+ 
+ **Program60** (Tipagem Dinamica)
+ 
+ **Program61- ProductPredicate** (Predicate)
+ 
+ **Program62**(Consumer)

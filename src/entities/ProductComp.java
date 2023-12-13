@@ -1,15 +1,10 @@
 package entities;
 
-public class Product {
-	
+public class ProductComp {
 	private String name;
 	private Double price;
-	
-	public Product() {
-		
-	}
 
-	public Product(String name, Double price) {
+	public ProductComp(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -29,20 +24,10 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	public static boolean staticProductPradicate(Product p) {
-		return p.getPrice() >= 100.00;
-	}
 
-	public boolean nonStaticProductPradicate() {
-		return price >= 100.00;
-	}
-	
 	@Override
 	public String toString() {
-		return name + ", " + price ;
+		return "Product [name=" + name + ", price=" + price + "]";
 	}
-	
-	
 
 }
